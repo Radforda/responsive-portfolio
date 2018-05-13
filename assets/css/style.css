@@ -1,0 +1,255 @@
+*{
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+body{
+    margin:0;
+}
+
+form{
+    margin:10px;
+}
+input{
+    width:100%;
+}
+p2{color: #ffffff}
+
+h3{
+    width:100%;
+    color:white;
+    background-color:#4aaaa5;
+    font-family: 'Times New Roman', serif;
+    margin:0;
+    padding:0;
+    top: 66%;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+}
+
+.imageContainer{
+    height:auto;
+    width:45%;
+    margin:20;
+    float:left;
+    position:relative;
+}
+.portfolioImage{
+    width:100%;
+    height:auto;
+}
+#aboutMe{
+    margin-top:0;
+}
+
+.textAndPic{
+    margin:10px;
+    border-top:2px solid  #cccccc;
+}
+.profileImage{
+    width:200px;
+    height:250px;
+    float:left;
+    margin-bottom:10px;
+margin-right:10px;}
+
+
+.row{
+    clear:both;
+}
+
+h1{
+    color:white;
+    background-color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float:left;
+    line-height: 100px;
+    margin:0px;
+    padding-left:10px;
+    padding-right:10px;
+}
+h2{
+    color:#4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    float:both;
+    padding:10px;
+
+}
+#submit{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding:10px;
+    margin-top:20px;
+    width:100px;
+}
+
+#message{
+    height:200px;
+    
+}
+header{
+    background-color:#ffffff;
+    
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:0px;
+    height:100px;
+   
+    
+}
+a{
+    text-decoration: none;}
+
+
+.background{
+    background-image: url('../images/canvasbackground.jpg');
+    border-top:2px solid #cccccc;
+    margin-top:0px;
+    clear:both;
+    height:150%;
+    width:100%;
+    
+}
+
+.nav{
+    height:100px;
+    line-height:100px;
+    float:right;
+}
+
+.mainText{
+    background-color:#ffffff;
+    border: 2px solid #dddddd;
+    width:960px;
+    margin-left:50px;
+    margin-top:30px;
+    overflow:auto;
+    margin-bottom:60px;
+    
+    
+    
+}
+
+
+footer{
+    background-color:#666666;
+    border-top:5px solid #4aaaa5;
+    color:#ffffff;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    text-align:center;
+    padding-top: 20px;
+    font-weight: lighter;
+    
+}
+btn{
+    padding-right:5px;
+}
+.vl{
+    border-right:1px solid #777777 ;
+
+}
+#line{
+    margin:10px;
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+
+    .nav{
+        float:right;
+        background-color:white; 
+    
+    }
+    
+
+    
+
+    .mainText{width:90%;
+    margin:auto;
+    
+    }
+
+    .imageContainer{
+        height:auto;
+        width:40%;
+        margin:20;
+        float:left;
+        position:relative;
+    }
+    .portfolioImage{
+        width:100%;
+        height:auto;
+    }
+
+
+  }
+
+
+
+
+
+@media screen and (max-width: 640px) {
+    .name{
+    text-align: center; 
+    margin:auto;
+    background-color:#4aaaa5; 
+    }
+
+    .nav{
+        float:left;
+        background-color:white;
+        clear:both;
+        width:100%;
+        text-align:center; 
+        margin:auto;
+    }
+    h1{margin:auto;
+    text-align:center;
+float:none;background-color:#4aaaa5;}
+
+    header{background-color:#4aaaa5;text-align:center;margin:auto;}
+
+    .mainText{width:90%;
+    
+    margin:auto;
+    
+    }
+
+    .textAndPic{
+        widows: 90%;;
+        margin-bottom:20px;
+        margin:auto;
+        float:none;
+        text-align: center;
+    }
+
+    .profileImage{float:none;
+         clear:both;
+         text-align:center;
+         margin:auto;
+        
+}
+
+.imageContainer{
+    height:auto;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    float:none;
+    position:relative;
+}
+.portfolioImage{
+    width:100%;
+    height:auto;
+}
+form{text-align:left}
+  }
